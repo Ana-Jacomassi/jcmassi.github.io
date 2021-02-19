@@ -5,63 +5,36 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portifólio Web Ana Jacomassi</title>
-
-  <style>
-    
-    #sobremim-style {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
-    body {
-      background-color: rgb(180, 192, 233);
-    }
-
-    #nacionalidade-style {
-      font-style: italic;
-    }
-
-    .list-style-sobremim {
-      font-size: x-large;
-    }
-
-    .list-style-nacionalidade {
-      font-size: x-small;
-    }
-
-    .list-style-habilidades {
-      font-size:small
-    }
-
-    .list-style-formacao {
-      font-size: medium;
-    }
-  </style>
-
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Portifólio Web Ana Jacomassi</h1>
-  <ul>
+  <ul id="primeira-lista-style">
     <li><a href="#sobremim">Sobre mim</a></li>
     <li><a href="#nacionalidade">Nacionalidade</a></li>
     <li><a href="#habilidades">Lista de Habilidades</a></li>
     <li><a href="#formacao">Formação</a></li>
   </ul>
   <div id= "sobremim-style">
-      <h3 id="sobremim">Sobre mim</h3>
+    <h3 id="sobremim">Sobre mim</h3>
+    <div>
       <p>Nome: <a href="#Ana">Ana Carolina Jacomassi Pereira</a></p>
-      <div>
-        <img src="familia.jpg" width="300px" id="Ana">
-        <p>Esta é minha família e essa foto diz muito sobre mim. Gosto de estar entre as pessoas e fluir em relações construtivas, aceitar diferenças e descobrir e evoluir os pontos em comum. Contudo, aprender sobre mim e o mundo.</p>
-      </div>
     </div>
+    <div class="information-container">
+        <img id="img-style" src="Me.jpg" width="200px">
+    </div>
+    <div class="information-container">
+      <p><em>Fluir em desafios e relações construtivas, seja trabalho ou apenas conhecer pessoas, aceitar diferenças, descobrir e evoluir os pontos e ideias em comum. Contudo, aprender sobre mim, sobre o mundo e interagir com ele.</em></p>
+    </div> 
+  </div>
   <h3 id="nacionalidade">Nacionalidade</h3>
   <p id="nacionalidade-style">Sou do <strong> Estado de São Paulo</strong>, nasci na cidade de <strong>São Bernardo do Campo</strong> que é a mesma cidade <strong>onde moro hoje.</strong></p>
   <h3 id="habilidades">Habilidades</h3>
   <ol>
     <li class="list-style-sobremim">Facilidade de interação com um time;</li>
-    <li class="list-style-nacionalidade"><strong>Paciência;</strong></li>
-    <li class="list-style-habilidades"><strong>Compreensão;</strong></li>
-    <li class="list-style-formacao">Agilidade.</li>
+    <li class="list-style-nacionalidade"><strong>Atenção;</strong></li>
+    <li class="list-style-habilidades"><strong>Criatividade;</strong></li>
+    <li class="list-style-formacao">Inovação.</li>
   </ol>
   <h3 id="formacao">Formação</h3>
   <p>Como estudante de desenvolvimento da <a href="https://www.betrybe.com" target="blanck">Trybe</a>, estou em um processo de aprendizado cheio de <i>ricos conteúdos e muitos estímulos e apoio</i> que me farão desenvolver novas Soft Skills e conhecimentos necessários <i>para uma vida profissional abundante em muitos sentidos!</i></p>
